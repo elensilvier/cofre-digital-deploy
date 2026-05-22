@@ -1,9 +1,9 @@
-name:  Cofre Digital - Deploy Automatizado 
-on: 
-  push:  
-    branches: [ main, develop ]  
-  pull_request:  
-    branches: [ main ]  
+name: Cofre Digital - Deploy Automatizado 
+on: 
+  push:  
+    branches:
+      - main
+      - develop
 env:
   REGISTRY: docker.io 
   IMAGE_NAME: cofre-digital-app 
